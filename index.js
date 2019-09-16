@@ -1,7 +1,7 @@
 let animal = "cat";
 
 function myAnimal() {
-    let myanimal = animal;
+    let myanimal = "dog";
     return myanimal;
 }
 
@@ -9,7 +9,7 @@ function yourAnimal() {
     // How can we make sure that this function
     // and the above function both pass?
     // P.S.: You can't just hard-code 'cat' below
-let youranimal =  myAnimal();
+let youranimal =  animal;
     return youranimal;
 }
 
