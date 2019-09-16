@@ -1,19 +1,22 @@
-animal = ""
+let animal = "cat";
 
 function myAnimal() {
-  return animal
+    let myanimal = "dog";
+    return myanimal;
 }
 
 function yourAnimal() {
-  // How can we make sure that this function
-  // and the above function both pass?
-  // P.S.: You can't just hard-code 'cat' below
-  return animal
+    // How can we make sure that this function
+    // and the above function both pass?
+    // P.S.: You can't just hard-code 'cat' below
+let youranimal =  animal;
+    return youranimal;
 }
 
 function add2(n) {
-  return n + two
+    const two = 2;
+    return n + two
 
-  // Feel free to move things around!
-  two = 2
+    // Feel free to move things around!
+
 }
